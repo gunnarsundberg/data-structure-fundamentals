@@ -1,0 +1,19 @@
+# Ignore all files in subdirectories except for .c and .pdf files
+
+# Blacklist all files in subdirectories
+dictionaries/*
+heaps/*
+linked_lists/*
+prereqs/*
+sorting/*
+stacks_and_queues/*
+trees/*
+
+# Whitelist project directories
+!*/project
+# Blacklist project files
+*/project/*
+
+# Whitelist all .c and .pdf files
+!*.c
+!*.pdf
